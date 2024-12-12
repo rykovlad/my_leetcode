@@ -13,6 +13,5 @@ class Solution:
         return res
 
 
-
-s  = Solution()
+s = Solution()
 s.pickGifts([25,64,9,4,100], 4)

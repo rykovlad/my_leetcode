@@ -1,4 +1,3 @@
-# Definition for singly-linked list.
 from email.header import Header
 from typing import Optional
 

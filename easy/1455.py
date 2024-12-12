@@ -1,3 +1,5 @@
+
+
 class Solution:
     def isPrefixOfWord(self, sentence: str, searchWord: str) -> int:
         sent = sentence.split()
@@ -7,8 +9,6 @@ class Solution:
                 return i
             i += 1
         return -1
-
-
 
 
 x = Solution().isPrefixOfWord("asd asdas asdsdasda 123", "1")

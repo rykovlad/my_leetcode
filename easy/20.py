@@ -23,7 +23,6 @@ class Solution:
         return True
 
 
-
 if __name__ == '__main__':
     print("ANSWER")
     print(Solution().isValid("()"))
