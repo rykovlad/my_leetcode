@@ -5,7 +5,9 @@ class Solution:
         if n == 2:
             return 2
 
-        prev2, prev1 = 1, 2
+        prev1 = 2
+        prev2 = 1
+
 
         for i in range(3, n + 1):
             current = prev1 + prev2
@@ -13,3 +15,7 @@ class Solution:
             prev1 = current
 
         return prev1
+
+
+x = Solution().climbStairs(5)
+print(x)
